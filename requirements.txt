@@ -4,3 +4,4 @@ pandas
 numpy
 requests
 scipy
+scikit-learn
