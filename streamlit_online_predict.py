@@ -16,7 +16,7 @@ try:
 except ImportError as exc:  # pragma: no cover
     raise ImportError("xgboost 未安装，请先执行 `pip install xgboost`") from exc
 
-BASE_URL = "https://api.binance.com/api/v3/klines"
+BASE_URL = "https://api1.binance.com/api/v3/klines"
 PRICE_URL = "https://api.binance.com/api/v3/ticker/price"
 LABEL_MAP = {-1: 0, 0: 1, 1: 2}
 INVERSE_LABEL_MAP = {v: k for k, v in LABEL_MAP.items()}
